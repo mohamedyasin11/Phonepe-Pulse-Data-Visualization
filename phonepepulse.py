@@ -5,6 +5,7 @@ import os
 import json
 from streamlit_option_menu import option_menu
 import pandas as pd
+import mysql.connector as sql 
 import sqlite3
 import plotly.express as px
 
@@ -48,6 +49,21 @@ df_Top_Pincodes_Transaction = pd.read_csv('Top_Pincodes_Transaction.csv')
 df_Top_District_User = pd.read_csv('Top_District_User.csv')
 # Top_Pincodes_User
 df_Top_Pincodes_User = pd.read_csv('Top_Pincodes_User.csv')
+
+# Creating  Connection with SQL Server using mysql.connect
+#conn = sql.connect(user = 'root',password ='Yaseen@11',host ='localhost',)
+#if conn:
+#  print('success')
+#cur = conn.cursor()
+#cur.execute('CREATE DATABASE phonepe_pulse')
+#cur.execute('USE phonepe_pulse;')
+#cur.execute('''CREATE TABLE Aggregated_Transaction(State varchar(10) NOT NULL,
+#            Year integer NOT NULL,
+#            Quater integer NOT NULL,
+#            Transacion_type varchar(20) NOT NULL,
+#            Transacion_count bigint,
+#            Transacion_amount bigint
+#            );''')
 
 # CREATING CONNECTION WITH SQL SERVER
 connection = sqlite3.connect("phonepe_pulse.db")
