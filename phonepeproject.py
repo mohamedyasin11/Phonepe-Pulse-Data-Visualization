@@ -28,14 +28,14 @@ with col2:
     st.image(phn,width=200)
     
 # Reading the data from csv files
-df_Aggregated_Transaction = pd.read_csv('Aggregated_Transaction.csv') # Aggregated_Transaction
-df_Aggregated_User = pd.read_csv('Aggregated_User.csv') # Aggregated_User
-df_Map_Transaction = pd.read_csv('Map_Transaction.csv') # Map_Transaction
-df_Map_User = pd.read_csv('Map_User.csv') # Map_User
-df_Top_District_Transaction = pd.read_csv('Top_District_Transaction.csv') # Top_District_Transaction
-df_Top_Pincodes_Transaction = pd.read_csv('Top_Pincodes_Transaction.csv') # Top_Pincodes_Transaction
-df_Top_District_User = pd.read_csv('Top_District_User.csv') # Top_District_User
-df_Top_Pincodes_User = pd.read_csv('Top_Pincodes_User.csv')    # Top_Pincodes_User
+df_Aggregated_Transaction = pd.read_csv(r'csv files/Aggregated_Transaction.csv') # Aggregated_Transaction
+df_Aggregated_User = pd.read_csv(r'csv files/Aggregated_User.csv') # Aggregated_User
+df_Map_Transaction = pd.read_csv(r'csv files/Map_Transaction.csv') # Map_Transaction
+df_Map_User = pd.read_csv(r'csv files/Map_User.csv') # Map_User
+df_Top_District_Transaction = pd.read_csv(r'csv files/Top_District_Transaction.csv') # Top_District_Transaction
+df_Top_Pincodes_Transaction = pd.read_csv(r'csv files/Top_Pincodes_Transaction.csv') # Top_Pincodes_Transaction
+df_Top_District_User = pd.read_csv(r'csv files/Top_District_User.csv') # Top_District_User
+df_Top_Pincodes_User = pd.read_csv(r'csv files/Top_Pincodes_User.csv')    # Top_Pincodes_User
 
 # CREATING CONNECTION WITH SQL SERVER 
 connection = sqlite3.connect("phonepepulse.db")
