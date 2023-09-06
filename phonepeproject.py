@@ -16,7 +16,7 @@ phn=Image.open(r'image and video files/phonepe-logo-icon.png')
 phn1=Image.open(r'image and video files/phonepe.png')
 video_file = open(r'image and video files/Phonepe.mp4', 'rb')
 video1 = video_file.read()
-vedio_file1=open(r'C:\Users\ELCOT\phonepe_pulse\phonepesample.mp4','rb')
+vedio_file1=open(r'image and video files/phonepesample.mp4','rb')
 vedio2=vedio_file1.read()
 
 # setting page title
