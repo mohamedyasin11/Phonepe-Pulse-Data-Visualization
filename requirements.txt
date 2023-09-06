@@ -1,4 +1,4 @@
 streamlit
 plotly.express
 streamlit_option_menu
-PIL
+Pillow>=8.0.0
