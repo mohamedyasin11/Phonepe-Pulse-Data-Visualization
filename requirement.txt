@@ -1,0 +1,5 @@
+streamlit
+plotly.express
+streamlit_option_menu
+sqlite3
+PIL
