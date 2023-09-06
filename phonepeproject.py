@@ -12,9 +12,9 @@ import plotly.express as px
 # Once created the clone of GIT-HUB repository then,Succesfully created a dataframe using codes in colab,Exporting the DataFrame to csv file
 
 # inserting the image and videos
-phn=Image.open(r'C:\Users\ELCOT\phonepe_pulse\phonepe-logo-icon.png')
-phn1=Image.open(r'C:\Users\ELCOT\phonepe_pulse\phonepe.png')
-video_file = open(r'C:\Users\ELCOT\phonepe_pulse\Phonepe.mp4', 'rb')
+phn=Image.open(r'image and video files/phonepe-logo-icon.png')
+phn1=Image.open(r'image and video files/phonepe.png')
+video_file = open(r'image and video files/Phonepe.mp4', 'rb')
 video1 = video_file.read()
 vedio_file1=open(r'C:\Users\ELCOT\phonepe_pulse\phonepesample.mp4','rb')
 vedio2=vedio_file1.read()
